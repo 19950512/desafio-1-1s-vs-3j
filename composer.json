@@ -1,0 +1,21 @@
+{
+    "name": "dev/desafio-1-1s-vs-3j",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "19950512",
+            "email": "mattmaydana@gmail.com"
+        }
+    ],
+    "require":{
+        "predis/predis": "^2.2",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1"
+    }
+}
